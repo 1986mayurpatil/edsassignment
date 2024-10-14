@@ -65,3 +65,36 @@
   .table.bordered table td {
     border: 1px solid #dadada;
   }
+
+
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.pagination-controls button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    cursor: pointer;
+}
+
+.pagination-controls button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination-controls button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+input[type="text"] {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #dadada;
+}
